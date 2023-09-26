@@ -12,7 +12,7 @@ The heart of this code is the estimation of affine motion between consecutive fr
 Once the affine transformation is estimated, it is used to compensate for the motion between frames. This compensation involves warping the current frame using the estimated affine transformation. This process helps align the current frame with the previous frame, reducing motion-induced jitter or instability.
 
 ### 3. Flow Field Computation
-The motion between frames is often computed using optical flow techniques. This code may include optical flow algorithms to calculate the flow field, which describes how pixels in the current frame have moved relative to the previous frame. This flow field is then used to estimate the affine transformation.
+The motion between the frames is often computed using optical flow techniques. This code may include optical flow algorithms to calculate the flow field, which describes how pixels in the current frame have moved relative to the previous frame. This flow field is then used to estimate the affine transformation.
 
 ## How to Use
 To apply image stabilization to your video, follow these steps:
