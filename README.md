@@ -1,7 +1,7 @@
 # Image Stabilization with Affine Motion Estimation
 
 ## Overview
-This Python Jupyter notebook presents an implementation of image stabilization using affine motion estimation. The code stabilizes a video by applying affine transformations to individual frames. It achieves this by estimating the motion between the current frame and the previous frame and then compensating for this motion.
+This Python notebook presents an implementation of image stabilization using affine motion estimation. The code stabilizes a video by applying affine transformations to individual frames. It achieves this by estimating the motion between the current frame and the previous frame and then compensating for this motion.
 
 The key components of this implementation are as follows:
 
